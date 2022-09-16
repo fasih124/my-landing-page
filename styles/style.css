@@ -1,4 +1,4 @@
-/* 
+/*
 
 color-1:#1F2937
 color-2:#F9FAF8
@@ -24,4 +24,107 @@ html {
 body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+/* ----------------------------------- */
+/*==============header=================*/
+/*-------------------------------------*/
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 2.4rem 8.6rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.nav_navigation {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav_logo {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.nav_link {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+/*  header-hero*/
+.header-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-text {
+  flex: 0 0 auto;
+  width: 50rem;
+}
+.hero-title {
+  font-size: 4.8rem;
+  font-weight: 800;
+  margin-bottom: 2.4rem;
+}
+.hero-description {
+  color: #e5e7eb;
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+.hero-button {
+  padding: 1.2rem 2.4rem;
+  background-color: #3382f6;
+  color: inherit;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.hero-img img {
+  height: 32rem;
+  width: auto;
+  border-radius: 1rem;
+}
+
+/* ----------------------------------- */
+/*========= about us section===========*/
+/*-------------------------------------*/
+
+/* 
+.about-us-section {
+
+} */
+
+/* ----------------------------------- */
+/*============Quotes section===========*/
+/*-------------------------------------*/
+
+.quotes-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+}
+
+/* ----------------------------------- */
+/*=========call to action section======*/
+/*-------------------------------------*/
+
+/* .cta-section {
+} */
+
+/* ----------------------------------- */
+/*==============footer=================*/
+/*-------------------------------------*/
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
 }

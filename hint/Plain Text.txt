@@ -11,8 +11,10 @@ font-family: 'Poppins', sans-serif;
 images credits
 
 
+Photo by Mike B: https://www.pexels.com/photo/photography-of-a-blue-mercedes-benz-5-door-hatchback-810357/(blue car)
+
+
 Photo by InstaWalli: https://www.pexels.com/photo/red-taillight-191238/(car light img)
 Photo by Mike B: https://www.pexels.com/photo/mercedes-benz-interior-1104764/(car seats)
-Photo by Brady Knoll: https://www.pexels.com/photo/red-coupe-3221163/(blue car)
 Photo by Mike B: https://www.pexels.com/photo/black-rubber-mercedes-benz-automotive-wheel-195635/(car wheel)
 Photo by George Sultan: https://www.pexels.com/photo/close-up-photo-of-vehicle-engine-1409999/(car engine)
