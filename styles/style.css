@@ -25,6 +25,8 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  color: #f9faf8;
+  font-size: 1.6rem;
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
@@ -34,8 +36,7 @@ body {
 /*-------------------------------------*/
 header {
   background-color: #1f2937;
-  color: #f9faf8;
-  padding: 2.4rem 8.6rem;
+  padding: 2.4rem 8.6rem 12rem 8.6rem;
 }
 nav {
   display: flex;
@@ -77,7 +78,7 @@ nav {
   margin-bottom: 2.4rem;
 }
 .hero-description {
-  color: #e5e7eb;
+  /* color: #e5e7eb; */
   font-size: 1.8rem;
   margin-bottom: 2.4rem;
 }
@@ -99,11 +100,38 @@ nav {
 /*========= about us section===========*/
 /*-------------------------------------*/
 
-/* 
 .about-us-section {
+  padding: 8rem 8.6rem 12rem 8.6rem;
+  color: #1f2937;
+  text-align: center;
+}
+.about-us-section h2 {
+  font-size: 3.6rem;
+  font-weight: 800;
+  margin-bottom: 3.6rem;
+  text-transform: uppercase;
+}
 
-} */
+.about-us-cards {
+  display: flex;
+  gap: 2.4rem;
+}
 
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_img img {
+  height: 20rem;
+  border: 0.5rem solid #3382f6;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.img-3 {
+  width: 20rem;
+}
 /* ----------------------------------- */
 /*============Quotes section===========*/
 /*-------------------------------------*/
@@ -111,15 +139,28 @@ nav {
 .quotes-section {
   background-color: #e5e7eb;
   color: #1f2937;
+  padding: 8rem 8.6rem 12rem 8.6rem;
+  text-align: center;
 }
-
+blockquote {
+  font-size: 3.6rem;
+  font-weight: 200;
+  font-style: italic;
+}
+.quotes-section p {
+  text-align: right;
+  font-weight: 500;
+}
 /* ----------------------------------- */
 /*=========call to action section======*/
 /*-------------------------------------*/
 
-/* .cta-section {
-} */
-
+.cta-section {
+  padding: 8rem 8.6rem 12rem 8.6rem;
+}
+.cta {
+  background-color: #3382f6;
+}
 /* ----------------------------------- */
 /*==============footer=================*/
 /*-------------------------------------*/
