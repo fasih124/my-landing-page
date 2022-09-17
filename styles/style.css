@@ -67,6 +67,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1.6rem;
 }
 .hero-text {
   flex: 0 0 auto;
@@ -82,7 +84,7 @@ nav {
   font-size: 1.8rem;
   margin-bottom: 2.4rem;
 }
-.hero-button {
+button {
   padding: 1.2rem 2.4rem;
   background-color: #3382f6;
   color: inherit;
@@ -115,6 +117,7 @@ nav {
 .about-us-cards {
   display: flex;
   gap: 2.4rem;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -156,10 +159,23 @@ blockquote {
 /*-------------------------------------*/
 
 .cta-section {
-  padding: 8rem 8.6rem 12rem 8.6rem;
+  padding: 8rem 8.6rem;
 }
 .cta {
   background-color: #3382f6;
+  padding: 3.6rem;
+  border-radius: 2rem;
+  display: flex;
+  gap: 2.4rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta_textbox {
+  flex: 1 0;
+}
+
+.cta button {
+  border: 0.3rem solid #f9faf8;
 }
 /* ----------------------------------- */
 /*==============footer=================*/
@@ -168,4 +184,10 @@ blockquote {
 footer {
   background-color: #1f2937;
   color: #f9faf8;
+  text-align: center;
+  font-size: 1rem;
+}
+footer a {
+  color: #e5e7eb;
+  text-decoration: none;
 }
